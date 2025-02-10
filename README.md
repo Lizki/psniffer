@@ -23,4 +23,6 @@ Clone the repository and install dependencies:
 git clone https://github.com/Lizki/psniffer
 cd psniffer
 pip install -r requirements.txt
+sudo python3 sniffer.py
+
 
