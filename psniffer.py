@@ -15,6 +15,6 @@ def start_sniffing(interface="wlan0", packet_count=100, save_to_file="captured_p
 if __name__ == "__main__":
     interface = input("Enter network interface (default: wlan0): ") or "wlan0"
     packet_count = int(input("Enter number of packets to capture (default: 100): ") or 100)
-    save_to_file = input("Enter file name to save packets (default: captured_packets.pcap): ") or "captured_packets.pcap"
+    save_to_file = input("Enter file name to save packets (default: captured_packets.pcap): ") or "captured_packets.cap"
 
     start_sniffing(interface, packet_count, save_to_file)
